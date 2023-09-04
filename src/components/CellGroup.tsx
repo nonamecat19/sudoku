@@ -14,6 +14,7 @@ const CellGroupComponent = styled.div<{
   selected: boolean
 }>`
   display: grid;
+  transition: 0.3s all;
   grid-template-columns: repeat(3, 1fr);
   background: ${({selected}) => selected ? COLORS.light1 : COLORS.bg3};
   box-sizing: border-box;

@@ -3,5 +3,5 @@ export const COLORS = {
   bg1: '#181818',
   bg2: '#3b3b3b',
   bg3: '#262626',
-  light1: '#484848'
+  light1: '#757575'
 } as const
